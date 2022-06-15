@@ -116,4 +116,4 @@ Target 1
           - `ls`
           - `cat flag4.txt`
     
-[Image of Flag 04](/images/07%20FLAG%2004.PNG)
+![Image of Flag 04](/images/07%20FLAG%2004.PNG)
