@@ -42,6 +42,8 @@ Target 1
     - WPScan to enumerate users of the Target 1 WordPress site
     - Command: 
         - `$ wpscan --url http://192.168.1.110 --enumerate u`
+
+
 ![WP_Scan](/images/03%20wpscan%201.PNG)
 - Logging into Target 1 as user Michael
   - Brute force/guessing Michael's password
@@ -57,6 +59,8 @@ Target 1
         - `cd var/www/html`
         - `ls -l`
         - `nano service.html`
+
+
 ![Flag 01](/images/04%20FLAG%2001.PNG)
 
 - `flag2: fc3fd58dcdad9ab23faca6e9a3e581c`
@@ -68,6 +72,8 @@ Target 1
     - `cd var/www`
     - `ls -l`
     - `cat flag2.txt`
+
+
 ![Flag2](images/05%20FLAG%2002.PNG)
 
 - `flag3: afc01ab56b50591e7dccf93122770cd2`
@@ -78,6 +84,8 @@ Target 1
     - `use wordpress;` 
     - `show tables;`
     - `select * from wp_posts;`
+
+
 ![Flag 03](/images/06%203%20flag.PNG)
 
 - `flag4: 715dea6c055b9fe3337544932f2941ce`
@@ -92,5 +100,8 @@ Target 1
           - `use wordpress;`
           - `show tables;`
           - `select * from wp_users;`
+
+
+
 ![wp_users](/images/08%20wp%20users.png))
 
