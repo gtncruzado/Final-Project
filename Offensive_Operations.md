@@ -101,9 +101,6 @@ Target 1
           - `show tables;`
           - `select * from wp_users;`
 
-
 ![wp_users](/images/08%20wp%20users.png)
 
-      - John the Ripper program to crack hashes file
-        - Command:
-          - `john hashes`
+      - a
