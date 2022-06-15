@@ -102,5 +102,4 @@ Target 1
           - `select * from wp_users;`
 
 ![wp_users](/images/08%20wp%20users.png)
-
-      - a
+- d
