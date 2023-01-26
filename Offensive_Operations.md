@@ -31,8 +31,6 @@ The following vulnerabilities were identified on each target:
 ![wpscan](
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
-
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 Target 1
 - `flag1: b9bbcb33ellb80be759c4e844862482d`
